@@ -1,0 +1,23 @@
+#pp-edit-btn{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    border: 1px solid #707070;
+    border-radius: 50%;
+    height: 28px;
+    width: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+#pp-edit-btn:hover{
+    background-color: #DDD;
+}
+
+#pp-edit-btn img{
+  border: none;
+}

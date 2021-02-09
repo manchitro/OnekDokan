@@ -1,0 +1,29 @@
+.group {
+  position: relative;
+  display: flex;
+  justify-content: center;
+
+  .form-input {
+    background: none;
+    background-color: #e9e9e9;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    margin: 10px 0;
+    font-size: 95%;
+    padding: 15px 15px;
+  }
+}
+
+.checkBox {
+  justify-content: flex-start;
+  align-items: center;
+
+  input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+  }
+}

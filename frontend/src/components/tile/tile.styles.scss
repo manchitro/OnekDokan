@@ -1,0 +1,28 @@
+.tile {
+  display: flex;
+  flex-direction: column;
+  flex: 33%;
+  max-width: 300px;
+  margin-bottom: 80px;
+  // box-sizing: border-box;
+  cursor: pointer;
+  img {
+    height: 300px;
+    width: 300px;
+    border: 2px solid #707070;
+  }
+
+  .tileName {
+    border: 2px solid #707070;
+    border-top: none;
+    padding: 10px 10px;
+    width: 93.4%;
+    font-size: 130%;
+  }
+}
+
+.link {
+  text-decoration: none;
+  color: #707070;
+}
+
